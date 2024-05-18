@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/Css/style.css">
+  <link rel="stylesheet" href="assets/Java/script.js">
 
   <title>Catalogo Tn</title>
 </head>
@@ -22,13 +23,59 @@
       </nav>
     </header>
 
-    <section>
+    <section class="container">
 
       <div class="list">
 
-        <div class="item">
+        <div class="item active">
           <div class="tn-img">
             <img src="./assets/image/Plus.png"  alt="imagem de tenis air max plus">
+          </div>
+
+          <div class="content">
+            <p class="tn-information">
+              Exclusivo
+            </p>
+
+            <h2>
+              Air Max 
+            </h2>
+            
+            <p class="description">
+              Com sua silhueta aerodinâmica e detalhes contemporâneos, o Air Max Plus é a escolha definitiva para aqueles que buscam um visual que se destaca da multidão.
+            </p>
+
+            <button class="information">Encomendar</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tn-img">
+            <img src="./assets/image/Gunsmoke.png"  alt="imagem de tenis air max plus">
+          </div>
+
+          <div class="content">
+            <p class="tn-information">
+              Exclusivo
+            </p>
+
+            <h2>
+              Air Max 
+            </h2>
+            
+            <p class="description">
+              Com sua silhueta aerodinâmica e detalhes contemporâneos, o Air Max Plus é a escolha definitiva para aqueles que buscam um visual que se destaca da multidão.
+            </p>
+
+            <button class="information">Encomendar</button>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="tn-img">
+            <img src="./assets/image/Drift-Photoroom.png-Photoroom.png"  alt="imagem de tenis air max plus">
           </div>
 
           <div class="content">
@@ -51,8 +98,8 @@
       </div>
 
       <div class="arrows">
-        <button><i class="fa-solid fa-arrow-left fa-3x"></i></button>
-        <button><i class="fa-solid fa-arrow-right fa-3x"></i></button>
+        <button id="prev"><i class="fa-solid fa-arrow-left fa-3x"></i></button>
+        <button id="next"><i class="fa-solid fa-arrow-right fa-3x"></i></button>
       </div>
 
       <div class="indicators">
@@ -68,5 +115,7 @@
 
     </section>
   
+    <script src="assets/Java/script.js"></script>
+
 </body>
 </html>
